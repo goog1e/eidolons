@@ -77,5 +77,5 @@ h1, h3, .social {
     content: '';
 }
 html, body, a:hover {
-    cursor: url('/cur1103.ani'), url('/cur1103.png'), progress !important;
+    cursor: url('../img/cur1103.ani'), url('../img/cur1103.png'), progress !important;
 }
