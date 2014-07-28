@@ -8,30 +8,40 @@
   <body>
     <div class="contain">
         <header>
-        <h1>EIDOLONS</h1>
+        <h1 id="title">EIDOLONS</h1>
         <hr class="shorty" />
         <div class="clouds"></div>
         </header>
       <section class="main pure-g">
         <section class="yellow-shirt pure-u-1 pure-u-md-1-2">
-          <h3>BIG YELLOW SHIRT</h3>
+          <h3 class="album-title">THE BIG YELLOW SHIRT</h3>
           <section class="album">
-            <iframe style="border: 0; width: 350px; height: 786px;" 
-                    src="https://bandcamp.com/EmbeddedPlayer/album=449201873/size=large/bgcol=ffffff/linkcol=e99708/transparent=true/"
-                    seamless>
-              <a href="http://eidolons.bandcamp.com/album/china">China by Eidolons</a>
+            <iframe style="border: 0; width: 350px; height: 654px;"
+                    src="http://bandcamp.com/EmbeddedPlayer/album=3285253973/size=large/bgcol=ffffff/linkcol=e99708/transparent=true/" seamless><a href="http://eidolons.bandcamp.com/album/the-big-yellow-shirt">
+                The Big Yellow Shirt by Eidolons</a>
             </iframe>
+
+            <!-- <iframe style="border: 0; width: 350px; height: 786px;"  -->
+            <!--         src="https://bandcamp.com/EmbeddedPlayer/album=449201873/size=large/bgcol=ffffff/linkcol=e99708/transparent=true/" -->
+            <!--         seamless> -->
+            <!--   <a href="http://eidolons.bandcamp.com/album/china">China by Eidolons</a> -->
+            <!-- </iframe> -->
           </section>
         </section>
 
         <section class="hard-hang pure-u-1 pure-u-md-1-2">
-          <h3>HARD HANG IN A DEEP COUNTRY</h3>
+          <h3 class="album-title">HARD HANG IN A DEEP COUNTRY</h3>
           <section class="album">
-            <iframe style="border: 0; width: 350px; height: 786px;" 
-                    src="https://bandcamp.com/EmbeddedPlayer/album=449201873/size=large/bgcol=ffffff/linkcol=e99708/transparent=true/"
-                    seamless>
-              <a href="http://eidolons.bandcamp.com/album/china">China by Eidolons</a>
+            <iframe style="border: 0; width: 350px; height: 687px;"
+                    src="http://bandcamp.com/EmbeddedPlayer/album=2609555729/size=large/bgcol=ffffff/linkcol=e99708/transparent=true/" seamless><a href="http://eidolons.bandcamp.com/album/hard-hang-in-a-deep-country">
+                Hard Hang in a Deep Country by Eidolons</a>
             </iframe>
+
+            <!-- <iframe style="border: 0; width: 350px; height: 786px;"  -->
+            <!--         src="https://bandcamp.com/EmbeddedPlayer/album=449201873/size=large/bgcol=ffffff/linkcol=e99708/transparent=true/" -->
+            <!--         seamless> -->
+            <!--   <a href="http://eidolons.bandcamp.com/album/china">China by Eidolons</a> -->
+            <!-- </iframe> -->
           </section>
         </section>
       </section>
@@ -43,5 +53,20 @@
         <li><a href="https://twitter.com/eidolonsmusic">twitter</a></li>
       </ul>
     </div>
+
+    <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="okshadow.min.js"></script>
+
+    <script type="text/javascript">
+     $('#title').okshadow({
+       color: '#444',
+       textShadow: true,
+       xMax: 5,
+       yMax: 2,
+       yOffset: 4,
+       fuzzMin: 1,
+       fuzzMax: 5,
+     });
+    </script>
   </body>
 </html>
